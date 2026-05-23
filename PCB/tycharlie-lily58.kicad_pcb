@@ -89,6 +89,7 @@
 		)
 	)
 	(footprint "tycharlie-lily58:MountingHole_3mm_M2_ISO14580_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "06c7ca5b-3067-4d01-badc-e085856603a8")
 		(at 184.16304 105.27516)
