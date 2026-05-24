@@ -85,7 +85,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/")
+			(outputdirectory "Gerber-lily58/")
 		)
 	)
 	(footprint "tycharlie-lily58:MountingHole_3mm_M2_ISO14580_Pad_TopBottom"
