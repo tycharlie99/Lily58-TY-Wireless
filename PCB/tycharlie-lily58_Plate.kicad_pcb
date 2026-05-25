@@ -239,6 +239,7 @@
 		(property "Reference" "H4"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e6fccb15-c1a6-4ed4-9107-08bf03033343")
 			(effects
 				(font
@@ -1033,6 +1034,7 @@
 		(property "Reference" "H2"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "782a4cbc-d182-4c3f-9e29-7509d43b565e")
 			(effects
 				(font
@@ -1471,6 +1473,7 @@
 		(property "Reference" "H5"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eaa4443a-859e-431e-a3e3-fb0f14498da5")
 			(effects
 				(font
@@ -1832,6 +1835,7 @@
 		(property "Reference" "H2"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "04343a60-05e5-475f-b403-0fee8a923f33")
 			(effects
 				(font
@@ -2477,6 +2481,7 @@
 		(property "Reference" "H1"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "afe20752-26f4-40db-9118-38c85db2be8f")
 			(effects
 				(font
@@ -2771,6 +2776,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "b0156cbf-7734-473a-8546-06130811b4b8")
+	)
+	(gr_text "By TsungYu"
+		(at 112.16304 126.17516 0)
+		(layer "F.SilkS")
+		(uuid "e8fb5643-ee6b-4951-828d-d6b48b0a4e2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "By TsungYu"
+		(at 120.86304 126.17516 -0)
+		(layer "B.SilkS")
+		(uuid "eece17df-4705-4f4c-aacc-859c62f0837a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(dimension
 		(type orthogonal)
