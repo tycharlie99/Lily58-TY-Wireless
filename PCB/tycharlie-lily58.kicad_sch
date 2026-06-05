@@ -3737,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 35.56) (xy 80.01 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695f6d47-5002-4788-ab75-aa1391a360ff")
+	)
+	(wire
+		(pts
 			(xy 93.98 101.6) (xy 93.98 128.27)
 		)
 		(stroke
@@ -3854,6 +3864,16 @@
 			(type default)
 		)
 		(uuid "7fa1747a-2058-417d-878b-0017d390632a")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820e2bed-0849-4a3b-879a-e1c01e17c934")
 	)
 	(wire
 		(pts
@@ -4357,16 +4377,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 77.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2eb41d-4c9e-4fcf-947c-019c05ec75bd")
-	)
-	(wire
-		(pts
 			(xy 99.06 111.76) (xy 99.06 106.68)
 		)
 		(stroke
@@ -4454,16 +4464,6 @@
 			(type default)
 		)
 		(uuid "f86d7a48-9e51-4f0c-977d-4a7a43b5cd5e")
-	)
-	(wire
-		(pts
-			(xy 80.01 35.56) (xy 77.47 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2ebdec-2d25-4eb0-9dc7-1a3f15fd2890")
 	)
 	(wire
 		(pts
@@ -8956,7 +8956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "tycharlie-lily58:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "tycharlie-lily58:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11681,7 +11681,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 33.02 90)
+		(at 80.01 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11692,7 +11692,7 @@
 		(fields_autoplaced yes)
 		(uuid "aebea87f-4e92-44b6-b553-cba57f6309e6")
 		(property "Reference" "#PWR01"
-			(at 86.36 33.02 0)
+			(at 86.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11703,7 +11703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 33.0201 90)
+			(at 83.82 35.5601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11714,7 +11714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 33.02 0)
+			(at 80.01 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11725,7 +11725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 33.02 0)
+			(at 80.01 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11736,7 +11736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 33.02 0)
+			(at 80.01 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,7 +12475,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 80.01 35.56 270)
+		(at 80.01 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12486,7 +12486,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6e53515-931d-4ce9-920a-a6df46d1e993")
 		(property "Reference" "#PWR02"
-			(at 76.2 35.56 0)
+			(at 76.2 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12497,7 +12497,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 83.82 35.5601 90)
+			(at 83.82 33.0201 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12508,7 +12508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 35.56 0)
+			(at 80.01 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +12519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 35.56 0)
+			(at 80.01 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +12530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 80.01 35.56 0)
+			(at 80.01 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
